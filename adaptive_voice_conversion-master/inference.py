@@ -98,8 +98,8 @@ if __name__ == '__main__':
     parser.add_argument('-config', '-c', help='config file path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1.config.yaml')
     parser.add_argument('-model', '-m', help='model path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1.ckpt')
     parser.add_argument('-source', '-s', help='source wav path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1/Corpus/wav48/p1/p1_202.wav')
-    parser.add_argument('-target', '-t', help='target wav path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1/Corpus/wav48/p2/p2_023.wav')
-    parser.add_argument('-output', '-o', help='output wav path',default='/work/b07u1234/b06502162/HW2-1/demo/Lu_p1mid_p2long.wav')
+    parser.add_argument('-target', '-t', help='target wav path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1/Corpus/wav48/p2/p2_198.wav')
+    parser.add_argument('-output', '-o', help='output wav path',default='/work/b07u1234/b06502162/HW2-1/demo/Lu_p1mid_p2short')
     parser.add_argument('-sample_rate', '-sr', help='sample rate', default=24000, type=int)
     args = parser.parse_args()
     # load config file 
