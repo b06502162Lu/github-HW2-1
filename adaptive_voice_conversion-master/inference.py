@@ -94,9 +94,9 @@ class Inferencer(object):
 
 if __name__ == '__main__':
     parser = ArgumentParser()
-    parser.add_argument('-attr', '-a', help='attr file path')
-    parser.add_argument('-config', '-c', help='config file path')
-    parser.add_argument('-model', '-m', help='model path')
+    parser.add_argument('-attr', '-a', help='attr file path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1/vctk/trimmed_vctk_spectrograms/sr_24000_mel_norm/attr.pkl')
+    parser.add_argument('-config', '-c', help='config file path',default='./config.yaml')
+    parser.add_argument('-model', '-m', help='model path',default='/work/b07u1234/b06502162/HW2-1/github-HW2-1.ckpt')
     parser.add_argument('-source', '-s', help='source wav path')
     parser.add_argument('-target', '-t', help='target wav path')
     parser.add_argument('-output', '-o', help='output wav path')
